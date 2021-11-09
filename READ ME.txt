@@ -1,0 +1,5 @@
+Ghibli Studio Movie Search Machine
+
+I made a search machine for mvies made by Ghibli studio. With using there free to use Ghibli Studio API.
+It was part of a school asignment.
+Feel free to check-out the code and try it your self (may not be used for commercial ends).

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Studio Ghibli Movie Search Machine</title>
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <header>Studio Ghibli Movie Search Machine</header>
+
+    <main>
+
+        <div class="errorMessage template">
+            <form class="errorbackground" action="#" method="post">
+                <h1>ERROR: NO MATCH</h1>
+                <p>No match has been found with the used keyword.</p>
+                <p>Please try a new keyword, it is capital sensitive.</p>
+                <span class="close-btn"><a href="#">X</a></span>
+            </form>
+        </div>
+
+        <section class="content">
+            <aside class="SearchMachine Container">
+                <div class="InputField">
+                    <input type="text" name="inputfield" placeholder="Totoro, Dragon, God..." />
+                    <button class="submit" name="submit">Search</button>
+                </div>
+
+                <div class="buttonBox">
+                    <button class="quickSearch clicked" name="quickbuttonSS">Search on Species</button>
+                    <button class="quickSearch" name="quickbuttonSP">Search on People</button>
+                    <button class="quickSearch" name="quickbuttonSH">Search Haku</button>
+                    <button class="quickSearch" name="quickbuttonSC">Search Cat</button>
+                </div>
+            </aside>
+
+            <aside class="Results Container">
+                <h1>RESULTS</h1>
+                <div class="ResultsBox">
+                    <!-- <div class="result One template">
+                        <h2>Result 1</h2>
+                        <p>Title:</p>
+                        <p>Director:</p>
+                        <P>Release Date:</P>
+                        -- <a href="https://ghibli.fandom.com/wiki/+ data[i].title +">Link to more Information</a> AND HOW TO LINK MAKE PRESSABLE LINKS -->
+                    <!-- </div>
+
+                    <div class="result Two template">
+                        <h2>Result 2</h2>
+                        <p>Title:</p>
+                        <p>Director:</p>
+                        <P>Release Date:</P>
+                        -- <a href="https://ghibli.fandom.com/wiki/+ data[i].title +">Link to more Information</a> AND HOW TO LINK MAKE PRESSABLE LINKS-->
+                    <!-- </div> -->
+
+                    <!-- <div class="result Three template">
+                        <h2>Result 3</h2>
+                        <p>Title:</p>
+                        <p>Director:</p>
+                        <P>Release Date:</P>
+                        -- <a href="https://ghibli.fandom.com/wiki/+ data[i].title +">Link to more Information</a> AND HOW TO LINK MAKE PRESSABLE LINKS-->
+                    <!-- </div> -->
+
+                    <!-- <div class="result Four template">
+                        <h2>Result 4</h2>
+                        <p>Title:</p>
+                        <p>Director:</p>
+                        <P>Release Date:</P>
+                        -- <a href="https://ghibli.fandom.com/wiki/+ data[i].title +">Link to more Information</a> -->
+                    <!-- </div> -->
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <div class="searchingLinks footerContainer">
+            <p>| Searching Links - Information about Ghibli Studios |</p> <br>
+            <div class="links">
+                <a href="https://ghibli.fandom.com/wiki/Ghibli_Wiki" target="_blank" rel="noopener noreferrer"> Studio Ghibli Fandom</a>
+                <a href="https://en.wikipedia.org/wiki/Studio_Ghibli" target="_blank" rel="noopener noreferrer"> Studio Ghibli Wikipedia</a>
+                <a href="https://www.vulture.com/article/best-studio-ghibli-films-ranked.html" target="_blank" rel="noopener noreferrer"> Studio Ghibli Best movies</a>
+            </div>
+        </div>
+
+        <div class="intials footerContainer">
+            <p>Made by Ira Evers - 2021<br> Advanced Web - One Pager Asignment <br> Used API: <a class="APIlink" href="https://ghibliapi.herokuapp.com/#" target="_blank" rel="noopener noreferrer">https://ghibliapi.herokuapp.com/#</a> </p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
